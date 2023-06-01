@@ -1,10 +1,7 @@
-rei=['homem','coroa','trono']
-rainha=['mulher','coroa','trono']
-abacaxi=['fruta','coroa','espinho']
-leao=['animal','coroa','selva']
-
-dicionario={'rei':rei,'rainha':rainha,'abacaxi':abacaxi,'leao':leao}
-
+dicionario={'rei': ['homem','coroa','trono'],
+            'rainha': ['mulher','coroa','trono'],
+            'abacaxi': ['fruta','coroa','espinho'],
+            'leao': ['animal','coroa','selva']}
 
 def advinha(sentenca,dicionario):
     print(sentenca)
